@@ -1,57 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-06-09 12:00">
+<yml_catalog date="2026-06-17 12:00">
     <shop>
-        <name>ТГУ Онлайн</name>
+        <name>Томский государственный университет</name>
+        <company>Томский государственный университет</company>
         <url>https://online.ido.tsu.ru/</url>
         <email>online@ido.tsu.ru</email>
         <picture>https://static.tildacdn.com/tild3063-3839-4364-b537-373761396365/logo.svg</picture>
-
-        <categories>
-            <category id="1">Искусственный интеллект</category>
-        </categories>
 
         <offers>
 
             <offer id="nlp-mag">
                 <name>Искусственный интеллект и обработка естественного языка</name>
                 <url>https://online.ido.tsu.ru/mag/nlp</url>
-                <categoryId>1</categoryId>
-                <price>300000</price>
+                <price>25000</price>
                 <currencyId>RUR</currencyId>
 
-                <param name="Формат обучения">Онлайн</param>
+                <param name="Формат обучения">Дистанционный</param>
                 <param name="Уровень образования">Магистратура</param>
-                <param name="Есть учитель">true</param>
-                <param name="Есть практика">true</param>
-                <param name="Ссылка для записи на курс">https://online.ido.tsu.ru/mag/nlp</param>
+                <param name="Срок обучения">2 года</param>
+                <param name="Язык обучения">Русский</param>
+                <param name="Есть преподаватели">Да</param>
+                <param name="Есть практика">Да</param>
+                <param name="Государственный диплом">Да</param>
+                <param name="Ссылка для записи на курс">https://online.ido.tsu.ru/mag/nlp#consult</param>
             </offer>
 
             <offer id="data-science-mag">
                 <name>Науки о данных и искусственный интеллект (Data Science)</name>
                 <url>https://online.ido.tsu.ru/mag/data_science</url>
-                <categoryId>1</categoryId>
-                <price>300000</price>
+                <price>25000</price>
                 <currencyId>RUR</currencyId>
 
-                <param name="Формат обучения">Онлайн</param>
+                <param name="Формат обучения">Дистанционный</param>
                 <param name="Уровень образования">Магистратура</param>
-                <param name="Есть учитель">true</param>
-                <param name="Есть практика">true</param>
-                <param name="Ссылка для записи на курс">https://online.ido.tsu.ru/mag/data_science</param>
+                <param name="Срок обучения">2 года</param>
+                <param name="Язык обучения">Русский</param>
+                <param name="Есть преподаватели">Да</param>
+                <param name="Есть практика">Да</param>
+                <param name="Государственный диплом">Да</param>
+                <param name="Ссылка для записи на курс">https://online.ido.tsu.ru/mag/data_science#consult</param>
             </offer>
 
             <offer id="computer-vision-mag">
                 <name>Компьютерное зрение и искусственный интеллект</name>
                 <url>https://online.ido.tsu.ru/mag/computer-vision</url>
-                <categoryId>1</categoryId>
-                <price>300000</price>
+                <price>25000</price>
                 <currencyId>RUR</currencyId>
 
-                <param name="Формат обучения">Онлайн</param>
+                <param name="Формат обучения">Дистанционный</param>
                 <param name="Уровень образования">Магистратура</param>
-                <param name="Есть учитель">true</param>
-                <param name="Есть практика">true</param>
-                <param name="Ссылка для записи на курс">https://online.ido.tsu.ru/mag/computer-vision</param>
+                <param name="Срок обучения">2 года</param>
+                <param name="Язык обучения">Русский</param>
+                <param name="Есть преподаватели">Да</param>
+                <param name="Есть практика">Да</param>
+                <param name="Государственный диплом">Да</param>
+                <param name="Ссылка для записи на курс">https://online.ido.tsu.ru/mag/computer-vision#consult</param>
             </offer>
 
         </offers>
