@@ -1,60 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<yml_catalog date="2026-06-17 12:00">
+<yml_catalog date="2026-06-18 12:00">
     <shop>
         <name>Томский государственный университет</name>
         <company>Томский государственный университет</company>
         <url>https://online.ido.tsu.ru/</url>
         <email>online@ido.tsu.ru</email>
-        <picture>https://static.tildacdn.com/tild3063-3839-4364-b537-373761396365/logo.svg</picture>
+
+        <picture>
+            https://static.tildacdn.com/tild3063-3839-4364-b537-373761396365/logo.svg
+        </picture>
 
         <offers>
 
             <offer id="nlp-mag">
                 <name>Искусственный интеллект и обработка естественного языка</name>
                 <url>https://online.ido.tsu.ru/mag/nlp</url>
-                <price>25000</price>
+                <categoryId>113</categoryId>
+
+                <price>600000</price>
                 <currencyId>RUR</currencyId>
 
-                <param name="Формат обучения">Дистанционный</param>
-                <param name="Уровень образования">Магистратура</param>
-                <param name="Срок обучения">2 года</param>
-                <param name="Язык обучения">Русский</param>
-                <param name="Есть преподаватели">Да</param>
-                <param name="Есть практика">Да</param>
-                <param name="Государственный диплом">Да</param>
-                <param name="Ссылка для записи на курс">https://online.ido.tsu.ru/mag/nlp#consult</param>
+                <description>
+                    Магистерская программа Томского государственного университета по искусственному интеллекту и обработке естественного языка. Обучение полностью дистанционное.
+                </description>
+
+                <param name="Ссылка на контент курса">
+                    https://online.ido.tsu.ru/mag/nlp#consult
+                </param>
+
+                <param name="Формат обучения">
+                    С преподавателем
+                </param>
+
+                <param name="Продолжительность" unit="месяц">
+                    24
+                </param>
+
+                <param name="План" unit="Базовая подготовка" hours="250" order="1">
+                    Основы математики, программирования и искусственного интеллекта.
+                </param>
+
+                <param name="План" unit="Машинное обучение и NLP" hours="450" order="2">
+                    Машинное обучение, обработка естественного языка и современные методы искусственного интеллекта.
+                </param>
+
+                <param name="План" unit="Практика и выпускная работа" hours="300" order="3">
+                    Выполнение проектов и защита выпускной квалификационной работы.
+                </param>
+
             </offer>
+
 
             <offer id="data-science-mag">
                 <name>Науки о данных и искусственный интеллект (Data Science)</name>
                 <url>https://online.ido.tsu.ru/mag/data_science</url>
-                <price>25000</price>
+                <categoryId>303</categoryId>
+
+                <price>600000</price>
                 <currencyId>RUR</currencyId>
 
-                <param name="Формат обучения">Дистанционный</param>
-                <param name="Уровень образования">Магистратура</param>
-                <param name="Срок обучения">2 года</param>
-                <param name="Язык обучения">Русский</param>
-                <param name="Есть преподаватели">Да</param>
-                <param name="Есть практика">Да</param>
-                <param name="Государственный диплом">Да</param>
-                <param name="Ссылка для записи на курс">https://online.ido.tsu.ru/mag/data_science#consult</param>
+                <description>
+                    Магистерская программа Томского государственного университета по Data Science и искусственному интеллекту. Обучение полностью дистанционное.
+                </description>
+
+                <param name="Ссылка на контент курса">
+                    https://online.ido.tsu.ru/mag/data_science#consult
+                </param>
+
+                <param name="Формат обучения">
+                    С преподавателем
+                </param>
+
+                <param name="Продолжительность" unit="месяц">
+                    24
+                </param>
+
+                <param name="План" unit="Базовая подготовка" hours="250" order="1">
+                    Основы программирования, математики и статистики.
+                </param>
+
+                <param name="План" unit="Data Science и машинное обучение" hours="450" order="2">
+                    Анализ данных, машинное обучение и работа с большими данными.
+                </param>
+
+                <param name="План" unit="Практика и выпускная работа" hours="300" order="3">
+                    Выполнение практических проектов и защита выпускной работы.
+                </param>
+
             </offer>
+
 
             <offer id="computer-vision-mag">
                 <name>Компьютерное зрение и искусственный интеллект</name>
                 <url>https://online.ido.tsu.ru/mag/computer-vision</url>
-                <price>25000</price>
+                <categoryId>113</categoryId>
+
+                <price>600000</price>
                 <currencyId>RUR</currencyId>
 
-                <param name="Формат обучения">Дистанционный</param>
-                <param name="Уровень образования">Магистратура</param>
-                <param name="Срок обучения">2 года</param>
-                <param name="Язык обучения">Русский</param>
-                <param name="Есть преподаватели">Да</param>
-                <param name="Есть практика">Да</param>
-                <param name="Государственный диплом">Да</param>
-                <param name="Ссылка для записи на курс">https://online.ido.tsu.ru/mag/computer-vision#consult</param>
+                <description>
+                    Магистерская программа Томского государственного университета по компьютерному зрению и искусственному интеллекту. Обучение полностью дистанционное.
+                </description>
+
+                <param name="Ссылка на контент курса">
+                    https://online.ido.tsu.ru/mag/computer-vision#consult
+                </param>
+
+                <param name="Формат обучения">
+                    С преподавателем
+                </param>
+
+                <param name="Продолжительность" unit="месяц">
+                    24
+                </param>
+
+                <param name="План" unit="Базовая подготовка" hours="250" order="1">
+                    Основы программирования, математики и алгоритмов.
+                </param>
+
+                <param name="План" unit="Компьютерное зрение и ИИ" hours="450" order="2">
+                    Нейронные сети, обработка изображений и современные методы компьютерного зрения.
+                </param>
+
+                <param name="План" unit="Практика и выпускная работа" hours="300" order="3">
+                    Реализация проектов и защита выпускной квалификационной работы.
+                </param>
+
             </offer>
 
         </offers>
